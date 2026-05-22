@@ -53,7 +53,7 @@ def get_data_loaders(base_path='./',name='example', batch_size=32):
         Train and test images are loaded relative to ``base_path``
     '''
     if name =='example':
-        base_path = os.path.join(os.path.dirname(__file__), "..","..", "test", "example_dataset")
+        base_path = os.path.join(os.path.dirname(__file__), "..","..", "tests", "example_dataset")
         example_dataset = PaintingDataset(
             img_dir=base_path,
             transform=DEFAULT_TRANSFORM,
