@@ -18,3 +18,6 @@ dependencies = [
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["pm*"]
+
+[tool.setuptools.package-data]
+example_data = ["pm.tests.example_dataset"]
