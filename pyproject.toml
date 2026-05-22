@@ -13,10 +13,6 @@ dependencies = [
     "numpy",
     "matplotlib",
     "pillow",
-    "scikit-learn",
-    "umap-learn",
-    "pandas",
-    "kagglehub",
 ]
 
 [tool.setuptools.packages.find]
