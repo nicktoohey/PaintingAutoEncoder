@@ -78,7 +78,7 @@ To evaluate the model, I used loss metrics and visually looked at image reconstr
 
 When looking at the model reconstruction, the reconstructed images were generally pretty similar to the originals. In most cases, there were some blurry details, but the overall image and color were almost always the same. Someone with good knowledge of these artists and their paintings should have no problem at all identifying which paintings the reconstructions were from. The image below shows 5 randomly selected images from each artist's test set, with their reconstructions of the same images on the right.
 
-<img src="assets/reconstruction_by_artist.png" alt="final_losses" width="300">
+<img src="assets/reconstruction_by_artist.png" alt="reconstruction_by_artist" width="100%">
 
 To see which types of images were being reconstructed better or worse, I sorted the image reconstructions from the test set by their loss. Below are the 10 images with the worst loss. As you can see, paintings are not very simple. They have a lot of color and a lot of detail, unlike a lot of other images with only a couple of main colors and one main subject of the painting. In the reconstructions, you can still make out the general image, but as you look closely, a lot of the details have been blurred and lost.
 
