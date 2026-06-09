@@ -8,7 +8,7 @@ CLASS_NAMES = ['Cezanne', 'Degas', 'Gauguin', 'Hassam', 'Matisse', 'Monet','Reno
 
 #Might change depending on the model
 DEFAULT_TRANSFORM = transforms.Compose([
-    transforms.Resize((128, 128)),
+    transforms.Resize((256, 256)),
     transforms.ToTensor(),
     transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
 ])

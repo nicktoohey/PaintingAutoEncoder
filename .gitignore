@@ -1,2 +1,7 @@
 data/
-venv/
+myenv/
+lightning_logs/
+PaintingAutoEncoder.egg-info/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

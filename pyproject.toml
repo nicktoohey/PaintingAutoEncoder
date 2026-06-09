@@ -13,6 +13,7 @@ dependencies = [
     "numpy",
     "matplotlib",
     "pillow",
+    "pytorch_lightning"
 ]
 
 [tool.setuptools.packages.find]

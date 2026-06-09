@@ -3,5 +3,5 @@ torchvision
 numpy
 matplotlib
 pillow
-pandas
 jupyter
+pytorch_lightning
